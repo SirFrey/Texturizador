@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+    color: #fff;
+}
+html{
+    background: radial-gradient(circle at 100%, #05f 60%, #48e);
+}
+.textures{
+    width: max-content;
+    height: max-content;
+    border: 5px double #666;
+    user-select: none;
+}
+
+.textures div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.texture1{
+    background: url(texturas/texture1.jpg);
+}
+.texture2{
+    background: url(texturas/texture2.jpg);
+}
+.texture3{
+    background: url(texturas/texture3.jpg);
+}
+.texture4{
+    background: url(texturas/texture4.jpg);
+}
+.texture5{
+    background: url(texturas/texture5.jpg);
+}
+.texture6{
+    background: url(texturas/texture6.jpg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background: #0004;
+    margin-bottom: 10px;
+}
+.zone{
+    width: 200px;
+    height: 200px;
+    box-sizing: content-box;
+    border: 10px solid #0004;
+    background: #666;
+    font-size: 20px;
+    text-shadow: 10px 10px 5px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h1{
+    background: radial-gradient(circle at 100%, #0ff 70%, #f9d);
+    text-align: center;
+    font-style: italic;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: Fira Code;
+}
+
+p{
+    font-size: 80px;
+}

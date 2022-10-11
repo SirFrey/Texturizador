@@ -1,0 +1,4 @@
+{
+	"info": "Esta es la información",
+	"version": "1.4444.3"
+}
